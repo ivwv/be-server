@@ -4,8 +4,7 @@
   "description": "Quickly map your local folder to a static resource server",
   "main": "bin/cli.js",
   "bin": {
-    "be-server": "bin/cli.js",
-    "be-server ./": "bin/cli.js ./"
+    "be-server": "bin/cli.js"
   },
   "directories": {
     "test": "test"
@@ -23,6 +22,20 @@
     "mapping",
     "http"
   ],
+  "homepage": "https://github.com/ivwv/be-server#readme",
+  "bugs": {
+    "url": "https://github.com/ivwv/be-server/issues",
+    "email": "sy18959889840@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivwv/be-server"
+  },
+  "people fields": {
+    "name": "ivwv",
+    "email": "sy18959889840@gmail.com",
+    "url": "https://ivwv.github.io/"
+  },
   "author": "ivwv",
   "license": "ISC",
   "dependencies": {
