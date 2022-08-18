@@ -1,8 +1,8 @@
 {
   "name": "be-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
+  "description": "Quickly map your local folder to a static resource server",
+  "main": "bin/cli.js",
   "bin": {
     "be-server": "bin/cli.js",
     "be-server ./": "bin/cli.js ./"
@@ -13,8 +13,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "node",
+    "server",
+    "static",
+    "resource",
+    "folder",
+    "mapping",
+    "http"
+  ],
+  "author": "ivwv",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",

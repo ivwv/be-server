@@ -10,7 +10,7 @@ const path = require("path");
 class Options {
   constructor() {
     this.options = {};
-    this.init();
+    // this.init();
   }
   init() {
     this.getOptions();
