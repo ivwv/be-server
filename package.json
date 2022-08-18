@@ -1,6 +1,6 @@
 {
   "name": "be-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly map your local folder to a static resource server",
   "main": "bin/cli.js",
   "bin": {
